@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dinosaur {
+    width: 100px; /* ניתן לשנות גודל לפי התמונה */
+    height: 100px; /* ניתן לשנות גודל לפי התמונה */
+    background-image: url('dinosaur.png'); /* ניתן להחליף את dinosaur.png בשם של התמונה שברצונך */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
