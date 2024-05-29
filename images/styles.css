@@ -1,0 +1,8 @@
+.dinosaur {
+    width: 100px; /* ניתן לשנות גודל לפי התמונה */
+    height: 100px; /* ניתן לשנות גודל לפי התמונה */
+    background-image: url('your_image.png'); /* עליך להחליף את your_image.png בשם של התמונה שלך */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
